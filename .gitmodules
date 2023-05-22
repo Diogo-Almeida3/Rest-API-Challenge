@@ -1,0 +1,6 @@
+[submodule "rest"]
+	path = rest
+	url = https://github.com/Diogo-Almeida3/rest.git
+[submodule "calculator"]
+	path = calculator
+	url = https://github.com/Diogo-Almeida3/calculator.git
