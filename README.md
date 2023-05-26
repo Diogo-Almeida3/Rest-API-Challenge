@@ -58,3 +58,17 @@ Bonus Points (Opcional):
     + If fail send back result with null that is handled in rest side
 + Logs added in code
 + RabbitMq to send messages back to the rest
+
+## Endpoint examples
+
+Add - http://localhost:8080/api/v1/sum?firstValue=1&secondValue=2 <br />
+Sub - http://localhost:8080/api/v1/subtract?firstValue=1&secondValue=2 <br />
+Div - http://localhost:8080/api/v1/divide?firstValue=1&secondValue=0 <br />
+Mul - http://localhost:8080/api/v1/multiply?firstValue=1&secondValue=2 <br />
+
+## Docker commands 
+
+```
+docker pull rabbitmq:3.11.16-management
+docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.11.16-management
+```
