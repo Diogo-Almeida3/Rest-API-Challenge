@@ -57,3 +57,4 @@ Bonus Points (Opcional):
     + If success send back result
     + If fail send back result with null that is handled in rest side
 + Logs added in code
++ RabbitMq to send messages back to the rest
