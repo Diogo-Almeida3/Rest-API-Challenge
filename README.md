@@ -40,15 +40,15 @@ Bonus Points (Opcional):
 + Handle API Endpoints with the four basic ones and accepts the parameters as Request parameters
 + All endpoints produce a json with the result
 + Has a WebMVCConfigurer that create a Handler interceptor to manage the identifier stored in the MDC and the response-headers
-+ Uses BigDecimal for arbitraryprecision signed decimal numbers
++ Uses BigDecimal for arbitrary precision signed decimal numbers
 + Configuration data inside application.properties
 + Response-header with identifier
-+ Logs (Both with request identifier so we can easily search for a specific request)
++ Logs (Both with request identifier, so we can easily search for a specific request)
     + logback-access.xml to log the http traffic
     + logback.xml to log the logs added in the code
 + RabbitMQ to send messages to Calculator module sending the necessary parameters and request-identifier
 + Handles failed calculation results
-+ Has a `TomcatServletWebServerFactory` that instanciates a `LogbackValve` to allow http logging
++ Has a `TomcatServletWebServerFactory` that instantiates a `LogbackValve` to allow http logging
 
 ## Calculator
 
