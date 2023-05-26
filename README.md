@@ -38,7 +38,7 @@ Bonus Points (Opcional):
 ## Rest
 
 + Handle API Endpoints with the four basic ones and accepts the parameters as Request parameters
-+ All endpoints receive a empty json and produce a new json with the result
++ All endpoints receive an empty json and produce a new json with the result
 + Has a WebMVCConfigurer that create a Handler interceptor to manage the identifier stored in the MDC and the response-headers
 + Uses BigDecimal for arbitrary precision signed decimal numbers
 + Configuration data inside application.properties
